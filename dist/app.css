@@ -17,7 +17,6 @@
   width: 1200px;
   height: 80px;
   margin: 0 auto;
-  background-color: orange;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -31,28 +30,41 @@
 }
 .navbar-container-up > ul > li {
   margin-right: 15px;
+  color: lightgray;
 }
 .navbar-container-down {
   width: 1200px;
   height: 100px;
   margin: 0 auto;
-  background-color: yellow;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.navbar-container-down > ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.navbar-container-down > ul > li {
+  margin-left: 45px;
+  color: white;
 }
 
 .jumbotron {
   width: 100%;
   height: 500px;
-  background-color: blue;
+  background-image: url("../wall.jpg"), url("../woman.png");
+  background-repeat: no-repeat;
 }
 .jumbotron-spec {
   width: 1200px;
   height: 100%;
-  background-color: green;
   margin: 0 auto;
 }
 .jumbotron-spec-description {
   width: 800px;
   height: 100%;
-  background-color: red;
   margin-left: 400px;
 }
