@@ -11,8 +11,8 @@
 }
 .navbar-container-up {
   width: 1200px;
-  height: 70px;
-  margin: auto 0;
+  height: 80px;
+  margin: 0 auto;
   background-color: orange;
 }
 .navbar-container-down {
@@ -20,4 +20,22 @@
   height: 100px;
   margin: 0 auto;
   background-color: yellow;
+}
+
+.jumbotron {
+  width: 100%;
+  height: 500px;
+  background-color: blue;
+}
+.jumbotron-spec {
+  width: 1200px;
+  height: 100%;
+  background-color: green;
+  margin: 0 auto;
+}
+.jumbotron-spec-description {
+  width: 800px;
+  height: 100%;
+  background-color: red;
+  margin-left: 400px;
 }
