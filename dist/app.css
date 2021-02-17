@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-container {
+  background-color: #101010;
+  width: 100%;
+  height: 180px;
+}
+.navbar-container-up {
+  width: 1200px;
+  height: 70px;
+  margin: auto 0;
+  background-color: orange;
+}
+.navbar-container-down {
+  width: 1200px;
+  height: 100px;
+  margin: 0 auto;
+  background-color: yellow;
+}
