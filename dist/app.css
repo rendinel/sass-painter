@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+.blue {
+  color: #009CFF;
+}
+
 .navbar-container {
   background-color: #101010;
   width: 100%;
@@ -14,6 +18,19 @@
   height: 80px;
   margin: 0 auto;
   background-color: orange;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+.navbar-container-up > ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.navbar-container-up > ul > li {
+  margin-right: 15px;
 }
 .navbar-container-down {
   width: 1200px;
